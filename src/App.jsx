@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { Microscope, TestTube2, Sparkles, Dna, PartyPopper, Syringe, Stars, FlaskConical } from 'lucide-react';
 
 export default function App() {
-  const [targetDate] = useState(new Date('2026-05-29T15:00:00'));
+  const [targetDate] = useState(new Date(2026, 4, 29, 15, 0, 0));
   const [timeLeft, setTimeLeft] = useState(calculateTimeLeft());
   const [isFinished, setIsFinished] = useState(false);
 
